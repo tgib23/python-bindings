@@ -110,7 +110,7 @@ for a full example.
     
     # Create some document
     document1_key = "doc1"
-    document1 = Document({': document1_key, 'count': 7})
+    document1 = Document({'_id': document1_key, 'count': 7})
     
     # Delete table if it's already present. Note JVM will be created only here,
     # on the first place it is required
